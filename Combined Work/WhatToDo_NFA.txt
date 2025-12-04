@@ -1,0 +1,19 @@
+# COMBINED NFA CREATION
+# Save in: /combined/combined_nfa.jff
+
+STEPS:
+1. Open JFLAP → Finite Automaton
+2. Create new start state (name: q_start)
+3. Open member1/dfa.jff
+4. Select ALL → Copy → Paste into new NFA
+5. Repeat for member2, member3, member4
+6. Add ε-transitions:
+   - Click q_start → click member1's start state
+   - Type "ε" as transition
+   - Repeat for all 4 members
+7. Save as combined_nfa.jff
+
+CHECK:
+✅ All 4 DFAs pasted in
+✅ ε from q_start to each member's start
+✅ All accept states preserved

@@ -1,0 +1,27 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Microsoft Office temporary files
+~$*
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+
+# Backups
+*.bak
+*.backup
+
+# JFLAP autosaves (if any)
+*.jff~
+
+# Temporary files
+*.log
+*.swp
+*~
+
+# System files
+Icon?

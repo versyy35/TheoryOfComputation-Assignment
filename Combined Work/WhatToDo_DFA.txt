@@ -1,0 +1,14 @@
+# CONVERT TO COMBINED DFA
+# Save in: /combined/combined_dfa.jff
+
+STEPS:
+1. Open combined_nfa.jff
+2. Convert → Convert NFA to DFA
+3. Wait for JFLAP to compute
+4. (Optional) Convert → Minimize DFA
+5. Save as combined_dfa.jff
+
+CHECK:
+✅ DFA is deterministic (no ε)
+✅ Accept states are correct
+✅ Save before closing

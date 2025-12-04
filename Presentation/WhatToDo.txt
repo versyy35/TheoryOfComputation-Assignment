@@ -1,0 +1,26 @@
+Files to Create:
+    1. slides.pdf - Presentation slides
+    2. demo_strings.txt - Strings to demo in JFLAP
+    3. recording.mp4 (if recording)
+
+Slides Content (5-10 slides):
+    1. Title + Group Members
+    2. Overview: The 20 strings & how we divided them
+    3. Member 1: Their regex, NFA screenshot, DFA screenshot
+    4. Member 2: Same
+    5. Member 3: Same
+    6. Member 4: Same
+    7. Combined DFA: How we combined, final DFA screenshot
+    8. Testing: Show accept/reject results
+    9. Q&A / Conclusion
+
+Demo Plan:
+    1. Each member shows THEIR DFA accepting their 5 strings
+    2. One person shows combined DFA accepting all 20
+    3. Show 1-2 reject examples
+
+Check Before Presenting:
+    1. All JFLAP files open without errors
+    2. Test strings ready to copy-paste
+    3. Slides on screen share
+    4. Microphone/webcam working

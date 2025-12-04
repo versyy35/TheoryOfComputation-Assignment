@@ -1,0 +1,43 @@
+# TEST FINAL DFA
+# Save in: /combined/test_cases.txt & combined_test_results.txt
+
+STEPS:
+1. Open combined_dfa.jff
+2. Input → Multiple Run
+3. ACCEPT STRINGS (all 20):
+*n*
+*x*
+*g*
+*2*
+gx2
+gx4
+gx6
+gxg
+n2
+n4
+n6
+ng
+xng
+xn2
+xn4
+nx*
+24g
+26g
+28g
+xn6
+
+4. REJECT STRINGS (5 examples):
+a
+*n
+gx8
+n8
+xxx
+
+5. Run → Record results
+6. Save test strings as test_cases.txt
+7. Save results as combined_test_results.txt
+
+CHECK:
+✅ All 20 strings ACCEPTED ✓
+✅ All reject strings REJECTED ✗
+✅ Files saved
