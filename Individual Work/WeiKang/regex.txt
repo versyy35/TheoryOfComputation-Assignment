@@ -1,3 +1,4 @@
 Strings: n2, n4, n6, ng
 
-Regular Expression: n(2+4+6+g)
+Regular Expression: n(2|4|6|g)
+
